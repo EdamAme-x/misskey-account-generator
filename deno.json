@@ -1,0 +1,15 @@
+{
+	"tasks": {
+		"start": "deno run -A --unstable ./index.ts",
+		"dev": "deno run -A --unstable --watch ./index.ts"
+	},
+	"fmt": {
+		"options": {
+			"lineWidth": 120,
+			"indentWidth": 4,
+			"singleQuote": false,
+			"useTabs": true,
+			"semiColons": true
+		}
+	}
+}
